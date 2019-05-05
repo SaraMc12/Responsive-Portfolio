@@ -1,0 +1,207 @@
+body{
+  background-image: url(http://christinawilliamsblog.com/wp-content/uploads/2015/03/Flowers-1920-x-1200.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#topbanner{
+  background-color: whitesmoke;
+}
+
+}
+#contact{
+  /* background-color: yellow; */
+  padding-bottom: 5px;
+  border-bottom: 2px solid greenyellow;
+}
+
+#form{
+   float: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+    
+  li {
+    display: inline-block;
+  }
+  section {
+   
+    padding: 15px;
+
+  }
+  
+  
+   .container{ 
+   
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  #contact{
+    background-color:#e0396a;
+
+  }
+  hr{
+    margin-bottom: 10px;
+  }
+  #header-container{
+  width: 960px;
+  margin: 0 auto;
+  }
+  #saraMcMullin{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: #4aaaa5;
+  display: inline-block;
+  padding: 20px;
+  }
+  h2{
+    color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+figure{
+  position: relative;
+  }
+
+  h3{
+    position: absolute;
+    bottom: 15px;
+    color: white;
+    background-color: #4aaaa5;
+    width: 100%;
+  }
+
+  /* contact css */
+
+  .name{
+    margin-bottom: 10px;
+  }
+
+  .name h4{
+    margin: 0;
+  }
+
+  .name input{
+    width: 100%;
+  }
+
+  / .container2{ 
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #e0396a;
+  }
+
+ .background{
+  background-color: #e0396a;
+  
+  padding: 15px;
+ } 
+
+ #cartoon{
+  border: 3px solid black;
+   
+  } 
+#background2{
+  margin: 0 auto;
+  width:800px;
+  background-color:#e0396a;
+}
+
+.footer{
+  margin: 0 auto;
+  width:800px;
+  position:fixed; bottom:0;
+  background-color:#e7e8e8;
+}
+/* media queary */
+
+@media screen and (max-width:760px){ 
+
+  body{
+    background-color: purple;
+  }
+
+  section{
+    widows: 100%;
+    padding:20px;
+  }
+
+  #container{
+    width:100%;
+  }
+
+  p{
+    margin-top:40px;
+  }
+
+/* why is this not working? */
+@media screen and (max-width:769px){ 
+
+
+
+
+@media screen and (max-width:640px){ 
+
+
+
+   /*  
+#main{
+  margin:0 auto;
+  width: 960px;
+  background-color: #4aaaa5;
+}
+
+  #container1 {
+    margin: 40px 50px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  #conainer2{
+    float:center;
+    margin: 40px 50px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    position: relative;
+  }
+
+  .box img{
+    width: inherit;
+    height: inherit;
+  }
+
+
+
+  .img2{
+    float:right;
+    position: fixed;
+    width:150px;
+    height:150px;
+    border: 3px solid black;
+  }
+   /* float:right;
+    widows: 150px;
+    height:150px;
+    border: 2px solid black;
+    position: relative;
+  }*/
+
