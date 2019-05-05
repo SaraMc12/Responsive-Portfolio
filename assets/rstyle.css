@@ -143,16 +143,71 @@ figure{
     margin-top:40px;
   }
 
-/* why is this not working? */
+  form{
+    widows:100%;
+    padding:20px;
+  }
+
+  .name{
+    widows: 100px;
+    padding:20px;
+  }
+
 @media screen and (max-width:769px){ 
+  body{
+    background-color: purple;
+  }
 
+  section{
+    widows: 75%;
+    padding:15px;
+  }
 
+  #container{
+    width:75%;
+  }
 
+  p{
+    margin-top:40px;
+  }
+
+  form{
+    widows:75%;
+    padding:15px;
+  }
+
+  .name{
+    widows: 100px;
+    padding:20px;
+  }
 
 @media screen and (max-width:640px){ 
+  body{
+    background-color: purple;
+  }
 
+  section{
+    widows: 40%;
+    padding:10px;
+  }
 
+  #container{
+    width:40%;
+  }
 
+  p{
+    margin-top:40px;
+  }
+
+  form{
+    widows:40%;
+    padding:10px;
+  }
+
+  .name{
+    widows: 100px;
+    padding:20px;
+  }
    /*  
 #main{
   margin:0 auto;
